@@ -3,6 +3,8 @@
 import fs from "node:fs";
 import path from "node:path";
 
+const __dirname = path.resolve();
+
 const [, , command, name] = process.argv;
 
 if (command === "add" && name) {
