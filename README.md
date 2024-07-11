@@ -22,3 +22,4 @@ The command above will copy the selected hook into your `src/hooks` (eventually 
 |------|---------------|
 | use-disclosure | Use this to control states for dialogs such as `opened`, `closed` |
 | use-copy-to-clipboard | Copy text to clipboard |
+| use-media-query | Handle with media queries and windo resize |
