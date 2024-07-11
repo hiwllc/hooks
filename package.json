@@ -1,0 +1,22 @@
+{
+  "name": "@uselessdev/hooks",
+  "version": "0.1.0-alpha.0",
+  "description": "A small collections of hooks to make my life easier",
+  "bin": {
+    "@uselessdev/hooks": "./bin/hooks.mjs"
+  },
+  "homepage": "https://github.com/uselessdev/hooks#readme",
+  "bugs": {
+    "url": "https://github.com/uselessdev/hooks/issues"
+  },
+  "scripts": {},
+  "keywords": [
+    "hooks",
+    "react"
+  ],
+  "author": "Wallace Batista de Oliveira <wallacebatistaoliveira@gmail.com> (https://iamwallace.dev)",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
