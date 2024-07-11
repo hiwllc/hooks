@@ -9,13 +9,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const [, , command, name] = process.argv;
 
 if (command === "add" && name) {
-  console.log(__dirname, path.join(__dirname, "../src", `${name}.ts`));
-
   const source = path.join(__dirname, "../src", `${name}.ts`);
   const dest = path.join(process.cwd(), "src/hooks", `${name}.ts`);
 
   if (!fs.existsSync(source)) {
-    console.error(`The hook ${name} does not exists... yet.`);
+    console.error(`👀 The hook ${name} does not exists... yet.`);
     process.exit(1);
   }
 
@@ -30,5 +28,5 @@ if (command === "add" && name) {
 }
 
 if (command !== "add" || !name) {
-  console.error(`use "add {hook}" to add a hook`);
+  console.error(`ℹ️ use "add {hook}" to add a hook`);
 }
