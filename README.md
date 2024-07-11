@@ -21,3 +21,4 @@ The command above will copy the selected hook into your `src/hooks` (eventually 
 | Hook | What is does? |
 |------|---------------|
 | use-disclosure | Use this to control states for dialogs such as `opened`, `closed` |
+| use-copy-to-clipboard | Copy text to clipboard |
